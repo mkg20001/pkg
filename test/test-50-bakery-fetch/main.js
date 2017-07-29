@@ -5,7 +5,7 @@
 const path = require('path');
 const assert = require('assert');
 const utils = require('../utils.js');
-const fetch = require('pkg-fetch');
+const fetch = require('pkg-fetch-mkg');
 
 assert(!module.parent);
 assert(__dirname === process.cwd());
