@@ -1,6 +1,6 @@
 {
   "name": "pkg-mkg",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "description": "Package your Node.js project into an executable",
   "main": "lib-es5/index.js",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "in-publish": "2.0.0",
     "minimist": "1.2.0",
     "multistream": "2.1.0",
-    "pkg-fetch-mkg": "2.3.8",
+    "pkg-fetch-mkg": "2.3.7",
     "progress": "2.0.0",
     "resolve": "1.4.0",
     "simple-bufferstream": "1.0.0",
