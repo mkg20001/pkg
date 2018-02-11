@@ -8,6 +8,8 @@
 
 This command line interface enables you to package your Node.js project into an executable that can be run even on devices without Node.js installed.
 
+Edits in this fork: Always include the stacktrace
+
 ## Use Cases
 
 * Make a commercial version of your application without sources
