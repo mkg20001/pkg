@@ -36,7 +36,8 @@
     "progress": "2.0.0",
     "resolve": "1.4.0",
     "simple-bufferstream": "1.0.0",
-    "stream-meter": "1.0.4"
+    "stream-meter": "1.0.4",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -55,7 +56,9 @@
     "lint": "eslint-klopov . || true",
     "prepublishOnly": "in-install || (eslint-klopov . && npm run babel)",
     "test": "eslint-klopov . && npm run babel && node test/test.js node0 no-npm && node test/test.js node4 no-npm && node test/test.js node6 no-npm && node test/test.js node7 no-npm && node test/test.js node8 no-npm && node test/test.js host only-npm",
-    "test:no-npm": "node test/test.js host no-npm"
+    "test:no-npm": "node test/test.js host no-npm",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "eslintConfig": {
     "extends": "klopov",
@@ -69,5 +72,6 @@
     "ignore": [
       "pkg-fetch"
     ]
-  }
+  },
+  "snyk": true
 }
